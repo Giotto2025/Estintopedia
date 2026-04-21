@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stile.css">
+        <title>Estintopedia</title>
+    </head>
+    <body>
+        <button onclick="toggleMenu()">☰ Menu</button>
+
+        <nav id="navMenu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="Pagine.html">Pagine</a></li>
+        </ul>
+        </nav>
+        <nav class="header">
+            <h1>ESTINTOPEDIA</h1>
+            <p>L'enciclopedia dei dinosauri</p>
+        </nav>
+        <div class="container">
+            <img src="home-fossil.png" class="img">
+            <div class="text">
+                <h1>Qual'è l'obiettivo del sito?</h1>
+            <p>Questo sito è stato creato per stimolare la curiosità e approfondire la conoscenza del mondo dei dinosauri, offrendo uno spazio dedicato alla loro scoperta e allo studio delle loro caratteristiche. Si propone come una vera e propria enciclopedia e database, ricco di informazioni utili e facilmente consultabili, pensato per accompagnare appassionati e curiosi in un viaggio affascinante nella preistoria.</p>
+            </div>
+        </div>
+        <div class="testo">
+            <h1>Quali erano le principali categorie?</h1>
+            <p>Le principali categorie alimentari dei dinosauri comprendevano carnivori, erbivori e pescivori, a seconda del tipo di dieta e delle abitudini di caccia o nutrizione. Oltre a questa distinzione, i dinosauri vengono classificati anche in base alla struttura del bacino in due grandi gruppi: i saurischi e gli ornitischi.
+I saurischi (“bacino da rettile”) includevano specie molto diverse tra loro, dai grandi predatori come l’Allosauro ai giganteschi erbivori dal collo lungo, come i brachiosauri. Gli ornitischi (“bacino da uccello”), invece, erano per lo più erbivori e spesso dotati di strutture difensive come corna o corazze; tra questi troviamo dinosauri come il Triceratopo. Questa doppia classificazione, per dieta e per anatomia, aiuta a comprendere meglio la varietà e l’evoluzione di questi affascinanti animali preistorici.
+</p>
+        </div>
+    </body>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("navMenu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+                }
+        }
+    </script>
+</html>
