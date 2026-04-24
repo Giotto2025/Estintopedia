@@ -79,4 +79,7 @@ img{
       font-size:32px;
     }
   }
+    .testo{
+    flex-direction:column;
+  }
 }
