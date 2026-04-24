@@ -5,4 +5,29 @@
     <title>Sommario</title>
 </head>
 <body>
-    <button onclick="toggleMenu()">
+    <button onclick="toggleMenu()">☰ Menu</button>
+    <nav id="navMenu">
+        <ul>
+            <li><a hret="index.html">Home</a></li>
+            <li><a href="pagine.html">Indice</a></li>
+        </ul>
+    </nav>
+    <nav class="header">
+        <h1>Indice</h1>
+    </nav>
+    <div class="testo">
+        <li><a href="allosauro.html"><h2>Allosauro</</h2></a></li>
+        
+    </div>
+</body>
+    <script>
+        function toggleMenu(){
+            var menu=document.getElementById("navMenu");
+            if(menu.style.display === "block"){
+                menu.style.display ="none";
+            } else{
+                menu.style.display="block";
+            }
+        }
+    </script>
+</html>
