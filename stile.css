@@ -26,13 +26,13 @@ body{
 }
 
 .text{
-    display:flex;
-    gap: auto;
+  display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
     text-align:justify;
-    line-height:29.5px;
+    line-height:1.5px;
     max-width: 400px;
-    margin-right: 130px;
+    margin-right: 0px;
     p{
       line-height:32.5px;
       font-size:30px;
@@ -40,8 +40,8 @@ body{
 }
 
 .testo{
-    display:flex;
-    gap:auto;
+  display: flex;
+  flex-wrap: wrap;
       text-align:justify;
       line-height:2.5;
       max-width:800px;
@@ -58,3 +58,4 @@ img{
   width: 1000px;
   height: 500px;
 }
+
