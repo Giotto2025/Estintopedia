@@ -1,7 +1,6 @@
 body{
-    background-color:#fff4c4;
+  background-color:#fff4c4;
 }
-
 
 .header {
   background:#4b504b;
@@ -9,13 +8,13 @@ body{
   padding: 60px 30px;
   text-align: center;
   font-size: 60px;
-        width:100%;
-      min-width:0;
-  line-height: 0px;
+  width:100%;
+  line-height: 1.2;
   font-family: 'Trebuchet MS', Arial, sans-serif;
-  p{
-    font-size: 75px
-  }
+}
+
+.header p{
+  font-size: 75px;
 }
 
 .container {
@@ -23,78 +22,46 @@ body{
   gap: 20px;
 }
 
-#navMenu {
-  display: none;
+.text{
+  text-align:justify;
+  line-height:1.5;
+  width:100%;
 }
 
-.text{
-  align-items: flex-start;
-    text-align:justify;
-    line-height:1.5px;
-      width:100%;
-      min-width:0;
-    margin-right: 0px;
-    h1{
-      width: 100%;
-      min-width:0;
-    }
-    p{
-      line-height:32.5px;
-      font-size:30px;
-    }
+.text p{
+  line-height:1.6;
+  font-size:30px;
 }
 
 .testo{
-      text-align:justify;
-      line-height:2.5;
-      width:100%;
-      min-width:0;
-      margin-left:350px;
-      h1{
-        text-align:center;
-      }
-      p{
-        line-height:32.5px;
-        font-size:30px;
-      }
+  text-align:justify;
+  line-height:1.6;
+  width:100%;
+  margin-left:0; /* FIX */
 }
+
+.testo p{
+  font-size:30px;
+}
+
 img{
   width: 100%;
   height: auto;
-  max-width: 100%;
   display:block;
 }
+
 @media (max-width: 768px){
   .container{
     flex-direction: column;
   }
-  .text{
-    h1{
-      font-size:16px;
-      flex-direction: column;
-    }
-    p{
-      font-size:15px;
-    }
-    flex-direction:column;
+
+  .text p,
+  .testo p{
+    font-size:15px;
   }
-  .header{
-    h1{
-      font-size:32px;
-    }
-    p{
-      font-size:32px;
-    }
-  }
-  .testo{
-    h1{
-      font-size:16px;
-    }
-    p{
-      font-size:15px;
-    }
-    flex-direction:column;
+
+  .header h1,
+  .header p{
+    font-size:32px;
   }
 }
-
-
