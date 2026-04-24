@@ -27,6 +27,7 @@ body{
 
 .text{
     display:flex;
+    gap: auto;
   align-items: flex-start;
     text-align:justify;
     line-height:29.5px;
@@ -40,6 +41,7 @@ body{
 
 .testo{
     display:flex;
+    gap:auto;
       text-align:justify;
       line-height:2.5;
       max-width:800px;
