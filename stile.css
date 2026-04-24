@@ -69,8 +69,11 @@ img{
     flex-direction: column;
   }
   .text{
-    h1{
-      font-size:32px;
+        h1{
+      font-size:16px;
+    }
+    p{
+      font-size:15px;
     }
     flex-direction:column;
   }
