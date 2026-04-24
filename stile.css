@@ -83,7 +83,12 @@ img{
     }
   }
   .testo{
+    h1{
+      font-size:16px;
+    }
+    p{
+      font-size:15px;
+    }
     flex-direction:column;
-    text-align: center;
   }
 }
