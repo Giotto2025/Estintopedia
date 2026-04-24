@@ -71,6 +71,7 @@ img{
   .text{
     h1{
       font-size:16px;
+      flex-direction: column;
     }
     p{
       font-size:15px;
