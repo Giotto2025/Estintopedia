@@ -1,5 +1,5 @@
 body{
-  background-color:#fff4c4;
+  background-color:white;
 }
 
 .header {
@@ -12,7 +12,9 @@ body{
   line-height: 1.2;
   font-family: 'Trebuchet MS', Arial, sans-serif;
 }
-
+.menu{
+  background: #4b504b;
+}
 .header p{
   font-size: 75px;
 }
@@ -51,6 +53,9 @@ img{
 }
 
 @media (max-width: 768px){
+  .menu{
+    flex-direction:column;
+  }
   .container{
     flex-direction: column;
   }
