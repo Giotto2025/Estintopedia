@@ -26,6 +26,7 @@ body{
 }
 
 .text{
+    display:flex;
   align-items: flex-start;
     text-align:justify;
     line-height:29.5px;
@@ -38,6 +39,7 @@ body{
 }
 
 .testo{
+    display:flex;
       text-align:justify;
       line-height:2.5;
       max-width:800px;
