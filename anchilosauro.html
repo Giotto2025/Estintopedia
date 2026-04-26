@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stile.css">
+        <title>Ankylosaurus</title>
+    </head>
+    <body>
+        <button onclick="toggleMenu()">☰ Menu</button>
+
+        <nav id="navMenu" class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pagine.html">Indice</a></li>
+        </ul>
+        </nav>
+        <nav class="header">
+            <h1>Ankylosaurus</h1>
+        </nav>
+        <div class="container">
+            <img src="" class="img">
+            <div class="text">
+                <h1>Cos'era l'Anchilosauro?</h1>
+                <p>L’Ankylosaurus era un dinosauro erbivoro appartenente al gruppo degli anchilosauri, noti per la loro forte corazza. Visse alla fine del Cretaceo superiore, circa 68–66 milioni di anni fa, poco prima dell’estinzione dei dinosauri. Era uno degli erbivori più protetti del suo tempo, grazie al corpo ricoperto di placche ossee e alla coda a mazza usata per difendersi dai predatori.</p>
+            </div>
+        </div>
+        <div class="testo">
+            <h1>Com'era l'Anchilosauro?</h1>
+            <p>Lungo circa 6–8 metri, aveva:</p>
+            <ul>
+                <li>corpo basso e massiccio</li>
+                <li>corazza ossea su tutto il corpo</li>
+                <li>coda con una grossa mazza per difendersi</li>
+
+            </ul>
+        </div>
+        <div class="testo">
+            <h1>Di cosa si nutriva l'Anchilosauro?</h1>
+            <p>Si nutriva di vegetazione bassa.</p>
+            <ul>
+                <li>Felci e arbusti</li>
+                <li>Piante vicino al suolo</li>
+            </ul>
+            <p>I suoi denti erano piccoli ma adatti a strappare le piante.</p>
+        </div>
+        <div class="testo">
+            <h1>Dove è vissuto l'Anchilosauro?</h1>
+            <p>Viveva in ambienti pianeggianti ricchi di vegetazione come l'attuale territorio del Canada e degli Stati Uniti.</p>
+        </div>
+    </body>
+        <script>
+        function toggleMenu() {
+            var menu = document.getElementById("navMenu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+                }
+        }
+    </script>
+</html>
