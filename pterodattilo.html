@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stile.css">
+        <title>pterodattilo</title>
+    </head>
+    <body>
+        <button onclick="toggleMenu()">☰ Menu</button>
+
+        <nav id="navMenu" class="menu">
+        <ul>
+            <li><a href="index.html"><h1>Home</h1></a></li>
+            <li><a href="pagine.html"><h1>Indice</h1></a></li>
+        </ul>
+        </nav>
+        <nav class="header">
+            <h1>Pterodactylus</h1>
+        </nav>
+        <div class="container">
+            <img src="immagini/depositphotos_77397214-stock-photo-pteranodon.png" class="img">
+            <div class="text">
+                <h1>Cos'era lo Pterodattilo?</h1>
+                <p>Lo Pterodattilo era un rettile volante appartenente agli pterosauri, non un vero dinosauro. Visse nel Giurassico, circa 150 milioni di anni fa. Gli pterosauri furono i primi vertebrati a sviluppare il volo attivo e occupavano un ruolo simile a quello degli uccelli moderni negli ecosistemi.</p>
+            </div>
+        </div>
+        <div class="testo">
+            <h1>Com'era lo Pterodattilo?</h1>
+            <p>Era leggero e adatto al voloz, con:</p>
+            <ul>
+                <li>Ali di membrana</li>
+                <li>Un dito molto lungo sosteneva l’ala</li>
+                <li>Corpo leggero</li>
+                <li>Becco lungo</li>
+            </ul>
+        </div>
+        <div class="testo">
+            <h1>Di cosa si nutriva lo Pterodattilo?</h1>
+            <p>Era un carnivoro che si nutriva vicino all’acqua.</p>
+            <ul>
+                <li>Pesci</li>
+                <li>Piccoli animali</li>
+            </ul>
+        </div>
+        <div class="testo">
+            <h1>Dove è vissuto lo Pterodattilo?</h1>
+            <p>Viveva vicino a mari e laghi sopprattutto in Europa.</p>
+        </div>
+    </body>
+        <script>
+        function toggleMenu() {
+            var menu = document.getElementById("navMenu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+                }
+        }
+    </script>
+</html>
