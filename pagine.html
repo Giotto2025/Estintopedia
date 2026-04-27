@@ -15,8 +15,21 @@
     <nav class="header">
         <h1>Indice</h1>
     </nav>
+    <input type="text" id="search" placeholder="Cerca...">
+    <script>
+    document.getElementById("search").addEventListener("keyup", function() {
+    let filter = this.value.toLowerCase();
+    let items = document.querySelectorAll("#list li");
+
+    items.forEach(item => {
+        item.style.display = item.textContent.toLowerCase().includes(filter)
+        ? ""
+        : "none";
+    });
+    });
+    </script>
     <div class="text">
-        <ul>
+        <ul id="list">
             <li><a href="allosauro.html"><h1>Allosaurus</a></h1></a></li>
             <li><a href="anchilosauro.html"><h1>Anchilosaurus</h1></a></li>
             <li><a href="brachiosauro.html"><h1>Brachiosaurus</h1></a></li>
