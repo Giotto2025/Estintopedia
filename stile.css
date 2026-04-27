@@ -21,7 +21,8 @@ body{
 .menu{
   width:100%;
   height: auto;
-  padding: 50%;
+  padding: 100%;
+  font-size: large;
 }
 .header p{
   font-size: 75px;
