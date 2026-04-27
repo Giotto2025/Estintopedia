@@ -19,8 +19,9 @@ body{
   font-size: 16px;
 }
 .menu{
-  width:200px;
+  width:100%;
   height: auto;
+  font-size:medium;
 }
 .header p{
   font-size: 75px;
