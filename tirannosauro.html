@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stile.css">
+        <title>tirannosauro</title>
+    </head>
+    <body>
+        <button onclick="toggleMenu()">☰ Menu</button>
+
+        <nav id="navMenu" class="menu">
+        <ul>
+            <li><a href="index.html"><h1>Home</h1></a></li>
+            <li><a href="pagine.html"><h1>Indice</h1></a></li>
+        </ul>
+        </nav>
+        <nav class="header">
+            <h1>Tyrannosaurus Rex</h1>
+        </nav>
+        <div class="container">
+            <img src="immagini/t-rex.png" class="img">
+            <div class="text">
+                <h1>Cos'era il Tirannosauro?</h1>
+                <p>Il Tyrannosaurus rex era un dinosauro carnivoro appartenente ai teropodi, vissuto verso la fine del Cretaceo superiore, circa 68–66 milioni di anni fa. Era uno dei principali predatori del suo ecosistema ed è oggi uno dei dinosauri più studiati e conosciuti.</p>
+            </div>
+        </div>
+        <div class="testo">
+            <h1>Com'era il Tirannosauro?</h1>
+            <p>Era grande e molto forte con:</p>
+            <ul>
+                <li>Lunghezza 12–13 metri</li>
+                <li>Testa enorme</li>
+                <li>Denti grandi e resistenti</li>
+                <li>Braccia corte ma muscolose</li>
+            </ul>
+        </div>
+        <div class="testo">
+            <h1>Di cosa si nutriva il Tirannosauro?</h1>
+            <p>Era un carnivoro.</p>
+            <ul>
+                <li>Cacciava grandi dinosauri</li>
+                <li>Si nutriva anche di carcasse</li>
+            </ul>
+            <p>Aveva un morso estremamente potente.</p>
+        </div>
+        <div class="testo">
+            <h1>Dove è vissuto il Tirannosauro?</h1>
+            <p>Viveva in ambienti vari dell'attuale territorio degli Stati Uniti.</p>
+        </div>
+    </body>
+        <script>
+        function toggleMenu() {
+            var menu = document.getElementById("navMenu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+                }
+        }
+    </script>
+</html>
