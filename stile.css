@@ -67,8 +67,8 @@ body{
 @media (max-width: 768px){
   .menu{
     flex-direction:column;
-    display:block;
-    padding:30px;
+    display:flex;
+    padding:30px, 50px;
   }
   .container{
     flex-direction: column;
