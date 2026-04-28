@@ -18,6 +18,13 @@ body{
   padding: 10px;
   font-size: 16px;
 }
+#menuBtn {
+  font-size: 30px;
+  padding: 10px 15px;  
+  border: none;
+  background: none;
+  cursor: pointer;
+}
 .menu{
   width:100%;
   height: auto;
