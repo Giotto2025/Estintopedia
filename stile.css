@@ -22,7 +22,7 @@ body{
   font-size: 30px;
   padding: 10px 15px;  
   border: none;
-  background: none;
+  background: #dddddd;
   cursor: pointer;
 }
 .menu{
