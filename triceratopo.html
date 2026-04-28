@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stile.css">
+        <title>triceratopo</title>
+    </head>
+    <body>
+        <button onclick="toggleMenu()">☰ Menu</button>
+
+        <nav id="navMenu" class="menu">
+        <ul>
+            <li><a href="index.html"><h1>Home</h1></a></li>
+            <li><a href="pagine.html"><h1>Indice</h1></a></li>
+        </ul>
+        </nav>
+        <nav class="header">
+            <h1>Triceratops</h1>
+        </nav>
+        <div class="container">
+            <img src="immagini/trice.jpg" class="img">
+            <div class="text">
+                <h1>Cos'era il Triceratopo?</h1>
+                <p>Il Triceratops era un dinosauro erbivoro appartenente ai ceratopsidi, un gruppo caratterizzato da corna e collari ossei. Visse nel Cretaceo superiore, circa 68–66 milioni di anni fa. Era uno degli erbivori più comuni del suo periodo.</p>
+            </div>
+        </div>
+        <div class="testo">
+            <h1>Com'era il Triceratopo?</h1>
+            <p>Era robusto e facilmente riconoscibile dalle:</p>
+            <ul>
+                <li>tre corna sul muso</li>
+                <li>grande collare osseo</li>
+                <li>corpo massiccio</li>
+            </ul>
+        </div>
+        <div class="testo">
+            <h1>Di cosa si nutriva il Triceratopo?</h1>
+            <p>Si nutriva di piante dure come:</p>
+            <ul>
+                <li>foglie e arbusti</li>
+                <li>vegetazione bassa</li>
+            </ul>
+        </div>
+        <div class="testo">
+            <h1>Dove è vissuto il Triceratopo?</h1>
+            <p>Viveva in ambienti pianeggianti e ricchi di foresta dell'attuale territorio degli Stati Uniti e del Canada.</p>
+        </div>
+    </body>
+        <script>
+        function toggleMenu() {
+            var menu = document.getElementById("navMenu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+                }
+        }
+    </script>
+</html>

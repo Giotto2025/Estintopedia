@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stile.css">
+        <title>velociraptor</title>
+    </head>
+    <body>
+        <button onclick="toggleMenu()">☰ Menu</button>
+
+        <nav id="navMenu" class="menu">
+        <ul>
+            <li><a href="index.html"><h1>Home</h1></a></li>
+            <li><a href="pagine.html"><h1>Indice</h1></a></li>
+        </ul>
+        </nav>
+        <nav class="header">
+            <h1>Velociraptor</h1>
+        </nav>
+        <div class="container">
+            <img src="immagini/velociraptor.png" class="img">
+            <div class="text">
+                <h1>Cos'era il Velociraptor?</h1>
+                <p>Il Velociraptor era un piccolo dinosauro carnivoro appartenente ai teropodi, più precisamente ai dromaeosauridi. Visse nel Cretaceo superiore, circa 75–71 milioni di anni fa. Era un predatore agile e intelligente, probabilmente molto diverso da come viene rappresentato nei film.</p>
+            </div>
+        </div>
+        <div class="testo">
+            <h1>Com'era il Velociraptor?</h1>
+            <p>Era agile e leggero grazie a:</p>
+            <ul>
+                <li>La lunghezza di circa 2 metri</li>
+                <li>Il corpo snello</li>
+                <li>L'artiglio affilato sulle zampe posteriori</li>
+                <li>La copertura di piume</li>
+            </ul>
+        </div>
+        <div class="testo">
+            <h1>Di cosa si nutriva il Velociraptor?</h1>
+            <p>Era un predatore attivo di:</p>
+            <ul>
+                <li>Piccoli animali</li>
+            </ul>
+            <p>Probabilmente cacciava in gruppo.</p>
+        </div>
+        <div class="testo">
+            <h1>Dove è vissuto il Velociraptor?</h1>
+            <p>Viveva in ambienti aridi dell'attuale territorio della Mongolia e della Cina.</p>
+        </div>
+    </body>
+        <script>
+        function toggleMenu() {
+            var menu = document.getElementById("navMenu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+                }
+        }
+    </script>
+</html>
