@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stile.css">
+        <title>pteranodonte</title>
+    </head>
+    <body>
+        <button id="menuBtn" onclick="toggleMenu()">☰ Menu</button>
+
+        <nav id="navMenu" class="menu">
+        <ul>
+            <li><a href="index.html"><h1>Home</h1></a></li>
+            <li><a href="pagine.html"><h1>Indice</h1></a></li>
+        </ul>
+        </nav>
+        <nav class="header">
+            <h1>Pteranodon</h1>
+        </nav>
+        <div class="container">
+            <img src="immagini/depositphotos_77397214-stock-photo-pteranodon.jpg" class="img">
+            <div class="text">
+                <h1>Cos'era lo Pteranodonte</h1>
+                <p>Il Pteranodon era un rettile volante appartenente agli pterosauri. Non era un dinosauro, ma un animale che volava nei cieli del Cretaceo.</p>
+            </div>
+        </div>
+        <div class="testo">
+            <h1>Com'era lo Pteranodonte</h1>
+            <p>Aveva un’apertura alare fino a 7 metri, con:</p>
+            <ul>
+                <li>Ali grandi e sottili</li>
+                <li>Becco lungo senza denti</li>
+                <li>Cresta sulla testa</li>
+            </ul>
+        </div>
+        <div class="testo">
+            <h1>Di cosa si nutriva lo Pteranodonte</h1>
+            <p>Si nutriva di:</p>
+            <ul>
+                <li>Pesci</li>
+            </ul>
+        </div>
+        <div class="testo">
+            <h1>Dove è vissuto lo Pteranodonte</h1>
+            <p>Viveva lungo le coste dell'attuale Nord America.</p>
+        </div>
+    </body>
+        <script>
+        function toggleMenu() {
+            var menu = document.getElementById("navMenu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+                }
+        }
+    </script>
+</html>

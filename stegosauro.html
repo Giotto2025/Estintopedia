@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stile.css">
+        <title>stegosauro</title>
+    </head>
+    <body>
+        <button id="menuBtn" onclick="toggleMenu()">☰ Menu</button>
+
+        <nav id="navMenu" class="menu">
+        <ul>
+            <li><a href="index.html"><h1>Home</h1></a></li>
+            <li><a href="pagine.html"><h1>Indice</h1></a></li>
+        </ul>
+        </nav>
+        <nav class="header">
+            <h1>Stegosaurus</h1>
+        </nav>
+        <div class="container">
+            <img src="immagini/stegosauro.jpg" class="img">
+            <div class="text">
+                <h1>Cos'era lo Stegosauro?</h1>
+                <p>Lo Stegosaurus era un dinosauro erbivoro appartenente agli stegosauri, un gruppo caratterizzato da placche ossee sul dorso e coda armata. Visse nel Giurassico superiore.</p>
+            </div>
+        </div>
+        <div class="testo">
+            <h1>Com'era lo Stegosauro?</h1>
+            <p>Era lungo circa 9 metri, con:</p>
+            <ul>
+                <li>Grandi placche sul dorso</li>
+                <li>Coda con punte difensive</li>
+                <li>Testa più piccola rispetto al corpo</li>
+            </ul>
+        </div>
+        <div class="testo">
+            <h1>Di cosa si nutriva lo Stegosauro?</h1>
+            <p>Si nutriva soprattutto di animali acquatici come:</p>
+            <ul>
+                <li>Felci</li>
+                <li>Piante basse</li>
+            </ul>
+        </div>
+        <div class="testo">
+            <h1>Dove è vissuto lo Stegosauro?</h1>
+            <p>Viveva nell'attuale territorio degli Stati Uniti.</p>
+        </div>
+    </body>
+        <script>
+        function toggleMenu() {
+            var menu = document.getElementById("navMenu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+                }
+        }
+    </script>
+</html>
